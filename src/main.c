@@ -34,8 +34,23 @@ switch(opcao){
         break;
     
             printf("O valor de frequencia invalida!");
+    
+    case 3:
+      
+        printf("\n--- Verificador De situação ---\n");
+        
+        
+        if(media <=5){
+            printf("O aluno esta aprovado.");
+        }else(media >5){
+            printf("O aluno esta reprovado");
         }
-
-}
+        break;
+        
+    case 4:
+      printf("\n--- Exibcao de resultados ---\n");
+      printf("A Media do aluno é %f\n", media);
 
     return 0;
+}
+}
