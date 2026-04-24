@@ -14,7 +14,7 @@ void menu(){
 
 int main() {
 
-int opcao;
+int opcao, a, b, c;
 float nota_1, nota_2, media;
 menu();
 scanf("%d", &opcao);
@@ -51,6 +51,19 @@ switch(opcao){
       printf("\n--- Exibcao de resultados ---\n");
       printf("A Media do aluno é %f\n", media);
 
+    case 5:
+        printf("\n--- Calcular derivada ---\n");
+        printf("Digite o valor de A: ");
+        scanf("%f", &a);
+        printf("Digite o valor de B: ");
+        scanf("%f", &b);
+          printf("Digite o valor de C: ");
+        scanf("%f", &c);
+
+        
+        break;
+
     return 0;
+
 }
 }
