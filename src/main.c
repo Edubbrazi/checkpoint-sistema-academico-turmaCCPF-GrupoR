@@ -19,8 +19,23 @@ float nota_1, nota_2, media;
 menu();
 scanf("%d", &opcao);
     
-switch(opcao)
+switch(opcao){
+     case 1: 
+        printf("\n--- Insira as notas ---\n");
+        printf("Digite sua primeira nota: ");
+        scanf("%f", &nota_1);
+        printf("Digite sua segunda nota: ");
+        scanf("%f", &nota_2);
+        break; 
 
+    case 2:
+            media = (nota_1 + nota_2)/2;
+            printf("O aluno esta com a media [(%.2f + %.2f)/2] igual a %.2f.\n", nota_1, nota_2, media);
+        break;
     
-    return 0;
+            printf("O valor de frequencia invalida!");
+        }
+
 }
+
+    return 0;
